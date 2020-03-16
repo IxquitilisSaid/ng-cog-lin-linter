@@ -17,7 +17,7 @@ export class Rule extends Lint.Rules.TypedRule {
         hasFix: true
     };
 
-    public static FAILURE_STRING = "Prefer async pipe over subscribe";
+    public static FAILURE_STRING = "Use lexical breaks on properties chain";
 
     public applyWithProgram(
         sourceFile: ts.SourceFile,
