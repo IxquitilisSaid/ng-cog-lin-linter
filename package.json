@@ -2,7 +2,7 @@
   "name": "ng-cog-lin-linter",
   "version": "0.0.1",
   "description": "cognitive linguistics applied to angular projects linting rules",
-  "main": "lint-rules.json",
+  "main": "./index.js",
   "scripts": {
     "build": "tsc && cpy ./package.json ./dist/ && cpy ./lint-rules.json ./dist/ && cpy ./README.md ./dist/",
     "test": "npm run build && tslint --test test/rules/**/tslint.json",
@@ -21,7 +21,7 @@
     "typescript": "^3.0.0",
     "rxjs": "^5.0.0 || ^6.0.0"
   },
-  "private": false,
+  "private": true,
   "devDependencies": {
     "cpy-cli": "^3.0.0",
     "replace-in-file": "^5.0.2",

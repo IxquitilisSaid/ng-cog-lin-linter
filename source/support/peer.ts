@@ -1,8 +1,3 @@
-/**
- * @license Use of this source code is governed by an MIT-style license that
- * can be found in the LICENSE file at https://github.com/cartant/rxjs-tslint-rules
- */
-
 import * as fs from "fs";
 import * as path from "path";
 import * as resolve from "resolve";
