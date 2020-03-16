@@ -9,7 +9,7 @@
     "skipLibCheck": true
   },
   "include": [
-    "rules/*.ts"
+    "source/**/*.ts"
   ]
 
 }
