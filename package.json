@@ -4,7 +4,7 @@
   "description": "cognitive linguistics applied to angular projects linting rules",
   "main": "./index.js",
   "scripts": {
-    "build": "tsc && cpy ./package.json ./dist/ && cpy ./lint-rules.json ./dist/ && cpy ./README.md ./dist/",
+    "build": "tsc && cpy ./package.json ./dist/ && cpy ./tsconfig-dist.json ./dist/ && cpy ./README.md ./dist/",
     "test": "npm run build && tslint --test test/rules/**/tslint.json",
     "publish-package": "standard-version && npm run build && replace-in-file --configFile=buildscripts/replace-config.json && npm publish dist && git push --follow-tags"
   },

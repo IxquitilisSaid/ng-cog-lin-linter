@@ -8,7 +8,7 @@
     "moduleResolution": "node",
     "noEmitHelpers": true,
     "noImplicitAny": true,
-    "outDir": "build",
+    "outDir": "dist",
     "removeComments": true,
     "skipLibCheck": true,
     "sourceMap": false,
